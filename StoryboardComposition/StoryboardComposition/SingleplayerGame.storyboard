@@ -46,6 +46,11 @@
             <objects>
                 <viewControllerPlaceholder storyboardName="PlayerOne" id="9JS-Rx-8Po" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DbJ-WX-4hH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="wBK-wX-DOQ" customClass="SinglePlayerViewControllerStoryboardConfigurator" customModule="StoryboardComposition" customModuleProvider="target">
+                    <connections>
+                        <outlet property="player" destination="9JS-Rx-8Po" id="yZc-mU-R55"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="91" y="-355"/>
         </scene>
