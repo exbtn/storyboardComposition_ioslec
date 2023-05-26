@@ -27,7 +27,7 @@
         <!--TimedMulti-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="TimedMultiplayerViewController" customModule="StoryboardComposition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="height" constant="8" id="zvA-AV-34X"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="M1W-3y-eSv" kind="embed" id="s4c-wa-5TI"/>
+                                    <segue destination="M1W-3y-eSv" kind="embed" identifier="timeBar" id="s4c-wa-5TI"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BHg-B7-lWA">
@@ -47,7 +47,7 @@
                                     <constraint firstAttribute="height" constant="66" id="6Nx-1R-H3N"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="hpg-Zg-IMS" kind="embed" id="H40-1P-0xC"/>
+                                    <segue destination="hpg-Zg-IMS" kind="embed" identifier="players" id="H40-1P-0xC"/>
                                 </connections>
                             </containerView>
                         </subviews>
