@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="66" id="956-Ld-Ge0"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="9JS-Rx-8Po" kind="embed" id="jBF-QH-P5M"/>
+                                    <segue destination="9JS-Rx-8Po" kind="embed" identifier="playerOne" id="jBF-QH-P5M"/>
                                 </connections>
                             </containerView>
                         </subviews>
