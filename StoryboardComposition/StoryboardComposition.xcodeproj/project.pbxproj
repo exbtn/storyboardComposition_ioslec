@@ -12,8 +12,8 @@
 		6DC0BD132A209E5100787B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0BD112A209E5100787B89 /* Main.storyboard */; };
 		6DC0BD152A209E5300787B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0BD142A209E5300787B89 /* Assets.xcassets */; };
 		6DC0BD182A209E5300787B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0BD162A209E5300787B89 /* LaunchScreen.storyboard */; };
-		6DC0BD232A209E5300787B89 /* StoryboardCompositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD222A209E5300787B89 /* StoryboardCompositionTests.swift */; };
 		6DC0BD3D2A20A4DA00787B89 /* SinglePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD3C2A20A4DA00787B89 /* SinglePlayerViewController.swift */; };
+		6DC0BD3F2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD3E2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +35,8 @@
 		6DC0BD172A209E5300787B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC0BD192A209E5300787B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC0BD1E2A209E5300787B89 /* StoryboardCompositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardCompositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DC0BD222A209E5300787B89 /* StoryboardCompositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardCompositionTests.swift; sourceTree = "<group>"; };
 		6DC0BD3C2A20A4DA00787B89 /* SinglePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewController.swift; sourceTree = "<group>"; };
+		6DC0BD3E2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 		6DC0BD212A209E5300787B89 /* StoryboardCompositionTests */ = {
 			isa = PBXGroup;
 			children = (
-				6DC0BD222A209E5300787B89 /* StoryboardCompositionTests.swift */,
+				6DC0BD3E2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift */,
 			);
 			path = StoryboardCompositionTests;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC0BD232A209E5300787B89 /* StoryboardCompositionTests.swift in Sources */,
+				6DC0BD3F2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
