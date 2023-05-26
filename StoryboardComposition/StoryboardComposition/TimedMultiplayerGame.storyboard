@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TimeBar-->
+        <scene sceneID="ak3-9E-rhQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TimeBar" id="M1W-3y-eSv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bM-Js-Jfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767" y="-135"/>
+        </scene>
+        <!--MultiplayerScore-->
+        <scene sceneID="VWq-6l-A91">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MultiplayerScore" id="hpg-Zg-IMS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lJg-23-P4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="-59"/>
+        </scene>
+        <!--TimedMulti-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vQH-eE-K5O">
+                                <rect key="frame" x="8" y="67" width="377" height="8"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="zvA-AV-34X"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="M1W-3y-eSv" kind="embed" id="s4c-wa-5TI"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BHg-B7-lWA">
+                                <rect key="frame" x="8" y="83" width="377" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="6Nx-1R-H3N"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="hpg-Zg-IMS" kind="embed" id="H40-1P-0xC"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="vQH-eE-K5O" secondAttribute="trailing" constant="8" id="1fy-Wq-LGS"/>
+                            <constraint firstItem="vQH-eE-K5O" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="23W-kO-t6A"/>
+                            <constraint firstItem="BHg-B7-lWA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="lgd-Ke-A3p"/>
+                            <constraint firstItem="BHg-B7-lWA" firstAttribute="top" secondItem="vQH-eE-K5O" secondAttribute="bottom" constant="8" id="qHn-Pb-cgH"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="BHg-B7-lWA" secondAttribute="trailing" constant="8" id="ulE-qZ-P3G"/>
+                            <constraint firstItem="vQH-eE-K5O" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="wmz-uC-lMe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TimedMulti" image="timer" catalog="system" id="2wr-62-TUK"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="91" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="timer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

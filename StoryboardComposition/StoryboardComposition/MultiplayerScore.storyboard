@@ -33,29 +33,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGR-O6-cvb">
-                                <rect key="frame" x="0.0" y="0.0" width="192.66666666666666" height="66"/>
+                                <rect key="frame" x="0.0" y="0.0" width="184" height="66"/>
                                 <connections>
                                     <segue destination="eB3-Ia-I26" kind="embed" identifier="playerOne" id="HD5-Mb-dok"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-YO-uP8">
-                                <rect key="frame" x="200.66666666666663" y="0.0" width="192.33333333333337" height="66"/>
+                                <rect key="frame" x="209" y="0.0" width="184" height="66"/>
                                 <connections>
                                     <segue destination="Con-FF-Sip" kind="embed" identifier="playerTwo" id="Nar-6O-jnZ"/>
                                 </connections>
                             </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ug3-4y-jBX">
+                                <rect key="frame" x="188" y="35" width="17" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ugV-IP-c14"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LN0-YO-uP8" firstAttribute="trailing" secondItem="ugV-IP-c14" secondAttribute="trailing" id="1CQ-pI-m1n"/>
+                            <constraint firstItem="LN0-YO-uP8" firstAttribute="leading" secondItem="ug3-4y-jBX" secondAttribute="trailing" constant="4" id="5hW-QP-g3Y"/>
                             <constraint firstAttribute="bottom" secondItem="DGR-O6-cvb" secondAttribute="bottom" id="7gT-8l-dNZ"/>
+                            <constraint firstItem="ug3-4y-jBX" firstAttribute="leading" secondItem="DGR-O6-cvb" secondAttribute="trailing" constant="4" id="H38-Sz-qgm"/>
                             <constraint firstItem="DGR-O6-cvb" firstAttribute="top" secondItem="OCc-4A-7dD" secondAttribute="top" id="NOp-n0-uIV"/>
                             <constraint firstAttribute="bottom" secondItem="LN0-YO-uP8" secondAttribute="bottom" id="a08-w1-mjo"/>
                             <constraint firstItem="DGR-O6-cvb" firstAttribute="width" secondItem="LN0-YO-uP8" secondAttribute="width" id="dgX-MB-9og"/>
                             <constraint firstItem="DGR-O6-cvb" firstAttribute="leading" secondItem="OCc-4A-7dD" secondAttribute="leading" id="fmP-Ou-cMH"/>
                             <constraint firstItem="LN0-YO-uP8" firstAttribute="top" secondItem="OCc-4A-7dD" secondAttribute="top" id="gfa-hR-N6B"/>
-                            <constraint firstItem="LN0-YO-uP8" firstAttribute="leading" secondItem="DGR-O6-cvb" secondAttribute="trailing" constant="8" id="xex-zK-6qB"/>
+                            <constraint firstItem="ug3-4y-jBX" firstAttribute="centerY" secondItem="OCc-4A-7dD" secondAttribute="centerYWithinMargins" id="vVc-AJ-Z2s"/>
                         </constraints>
                     </view>
                     <size key="freeformSize" width="393" height="66"/>
