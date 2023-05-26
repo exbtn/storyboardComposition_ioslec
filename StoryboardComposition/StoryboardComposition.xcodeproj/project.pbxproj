@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D4C844E2A20BC3300C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C844D2A20BC3200C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift */; };
 		6D65ADFF2A20AE4700B64D8F /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D65ADFE2A20AE4700B64D8F /* MultiplayerViewController.swift */; };
 		6D65AE012A20AEB500B64D8F /* MultiplayerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D65AE002A20AEB500B64D8F /* MultiplayerViewControllerTests.swift */; };
 		6D65AE032A20AF0400B64D8F /* MultiplayerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D65AE022A20AF0400B64D8F /* MultiplayerGame.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D4C844D2A20BC3200C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
 		6D65ADFE2A20AE4700B64D8F /* MultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
 		6D65AE002A20AEB500B64D8F /* MultiplayerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewControllerTests.swift; sourceTree = "<group>"; };
 		6D65AE022A20AF0400B64D8F /* MultiplayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiplayerGame.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		6DC0BD212A209E5300787B89 /* StoryboardCompositionTests */ = {
 			isa = PBXGroup;
 			children = (
+				6D4C844D2A20BC3200C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift */,
 				6DC0BD3E2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift */,
 				6D65AE002A20AEB500B64D8F /* MultiplayerViewControllerTests.swift */,
 			);
@@ -247,6 +250,7 @@
 			files = (
 				6DC0BD3F2A20A5EC00787B89 /* SinglePlayerViewControllerTests.swift in Sources */,
 				6D65AE012A20AEB500B64D8F /* MultiplayerViewControllerTests.swift in Sources */,
+				6D4C844E2A20BC3300C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
