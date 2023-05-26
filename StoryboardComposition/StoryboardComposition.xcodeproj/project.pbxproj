@@ -33,6 +33,7 @@
 		6D65ADFE2A20AE4700B64D8F /* MultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
 		6D65AE002A20AEB500B64D8F /* MultiplayerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewControllerTests.swift; sourceTree = "<group>"; };
 		6D65AE022A20AF0400B64D8F /* MultiplayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiplayerGame.storyboard; sourceTree = "<group>"; };
+		6D65AE042A20B1D600B64D8F /* StoryboardComposition.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoryboardComposition.xctestplan; sourceTree = "<group>"; };
 		6DC0BD082A209E5100787B89 /* StoryboardComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC0BD0B2A209E5100787B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC0BD0D2A209E5100787B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		6DC0BCFF2A209E5100787B89 = {
 			isa = PBXGroup;
 			children = (
+				6D65AE042A20B1D600B64D8F /* StoryboardComposition.xctestplan */,
 				6DC0BD0A2A209E5100787B89 /* StoryboardComposition */,
 				6DC0BD212A209E5300787B89 /* StoryboardCompositionTests */,
 				6DC0BD092A209E5100787B89 /* Products */,

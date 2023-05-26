@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "592A7C9E-78DD-46D9-B077-D2A7F7BFC095",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:StoryboardComposition.xcodeproj",
+      "identifier" : "6DC0BD072A209E5100787B89",
+      "name" : "StoryboardComposition"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:StoryboardComposition.xcodeproj",
+        "identifier" : "6DC0BD1D2A209E5300787B89",
+        "name" : "StoryboardCompositionTests"
+      }
+    }
+  ],
+  "version" : 1
+}
