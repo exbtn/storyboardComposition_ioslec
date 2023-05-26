@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D4C844E2A20BC3300C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C844D2A20BC3200C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift */; };
+		6D4C84502A20D14100C84EA3 /* MultiplayerScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4C844F2A20D14100C84EA3 /* MultiplayerScore.storyboard */; };
 		6D65ADFF2A20AE4700B64D8F /* MultiplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D65ADFE2A20AE4700B64D8F /* MultiplayerViewController.swift */; };
 		6D65AE012A20AEB500B64D8F /* MultiplayerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D65AE002A20AEB500B64D8F /* MultiplayerViewControllerTests.swift */; };
 		6D65AE032A20AF0400B64D8F /* MultiplayerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D65AE022A20AF0400B64D8F /* MultiplayerGame.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		6D4C844D2A20BC3200C84EA3 /* PlayerScoreViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
+		6D4C844F2A20D14100C84EA3 /* MultiplayerScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiplayerScore.storyboard; sourceTree = "<group>"; };
 		6D65ADFE2A20AE4700B64D8F /* MultiplayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewController.swift; sourceTree = "<group>"; };
 		6D65AE002A20AEB500B64D8F /* MultiplayerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerViewControllerTests.swift; sourceTree = "<group>"; };
 		6D65AE022A20AF0400B64D8F /* MultiplayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiplayerGame.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				6D65AE022A20AF0400B64D8F /* MultiplayerGame.storyboard */,
 				6D65AE052A20B29400B64D8F /* PlayerOne.storyboard */,
 				6D65AE072A20B35B00B64D8F /* PlayerTwo.storyboard */,
+				6D4C844F2A20D14100C84EA3 /* MultiplayerScore.storyboard */,
 				6DC0BD3B2A20A0CE00787B89 /* Resources */,
 				6DC0BD3C2A20A4DA00787B89 /* SinglePlayerViewController.swift */,
 				6D65ADFE2A20AE4700B64D8F /* MultiplayerViewController.swift */,
@@ -218,6 +221,7 @@
 				6DC0BD152A209E5300787B89 /* Assets.xcassets in Resources */,
 				6DC0BD132A209E5100787B89 /* Main.storyboard in Resources */,
 				6D65AE082A20B35B00B64D8F /* PlayerTwo.storyboard in Resources */,
+				6D4C84502A20D14100C84EA3 /* MultiplayerScore.storyboard in Resources */,
 				6D65AE032A20AF0400B64D8F /* MultiplayerGame.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

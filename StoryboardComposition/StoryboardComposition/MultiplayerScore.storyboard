@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D0F-9u-YsR">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PlayerOne-->
+        <scene sceneID="Aft-in-bIm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOne" id="eB3-Ia-I26" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ax-7F-xU3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="-115"/>
+        </scene>
+        <!--PlayerTwo-->
+        <scene sceneID="iqr-6c-GJb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerTwo" id="Con-FF-Sip" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJn-Lm-0Mv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="-119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bpR-1Q-DXw">
+            <objects>
+                <viewController id="D0F-9u-YsR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OCc-4A-7dD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGR-O6-cvb">
+                                <rect key="frame" x="0.0" y="0.0" width="193" height="66"/>
+                                <connections>
+                                    <segue destination="eB3-Ia-I26" kind="embed" id="HD5-Mb-dok"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-YO-uP8">
+                                <rect key="frame" x="201" y="0.0" width="192" height="66"/>
+                                <connections>
+                                    <segue destination="Con-FF-Sip" kind="embed" id="Nar-6O-jnZ"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ugV-IP-c14"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LN0-YO-uP8" firstAttribute="trailing" secondItem="ugV-IP-c14" secondAttribute="trailing" id="1CQ-pI-m1n"/>
+                            <constraint firstAttribute="bottom" secondItem="DGR-O6-cvb" secondAttribute="bottom" id="7gT-8l-dNZ"/>
+                            <constraint firstItem="DGR-O6-cvb" firstAttribute="top" secondItem="OCc-4A-7dD" secondAttribute="top" id="NOp-n0-uIV"/>
+                            <constraint firstAttribute="bottom" secondItem="LN0-YO-uP8" secondAttribute="bottom" id="a08-w1-mjo"/>
+                            <constraint firstItem="DGR-O6-cvb" firstAttribute="width" secondItem="LN0-YO-uP8" secondAttribute="width" id="dgX-MB-9og"/>
+                            <constraint firstItem="DGR-O6-cvb" firstAttribute="leading" secondItem="OCc-4A-7dD" secondAttribute="leading" id="fmP-Ou-cMH"/>
+                            <constraint firstItem="LN0-YO-uP8" firstAttribute="top" secondItem="OCc-4A-7dD" secondAttribute="top" id="gfa-hR-N6B"/>
+                            <constraint firstItem="LN0-YO-uP8" firstAttribute="leading" secondItem="DGR-O6-cvb" secondAttribute="trailing" constant="8" id="xex-zK-6qB"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="66"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ihh-pf-8TZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927.48091603053433" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
