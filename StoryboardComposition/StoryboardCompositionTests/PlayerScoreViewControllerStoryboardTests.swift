@@ -22,6 +22,7 @@ final class PlayerScoreViewControllerStoryboardTests: XCTestCase {
         vc.name = "a name"
         
         XCTAssertEqual(vc.nameLabel?.text, "a name")
+        XCTAssertEqual(vc.name, "a name")
     }
     
     func test_playerOneStoryboard_scoreSetter_updatesScoreLabel() {
@@ -30,6 +31,7 @@ final class PlayerScoreViewControllerStoryboardTests: XCTestCase {
         vc.score = "a score"
         
         XCTAssertEqual(vc.scoreLabel?.text, "a score")
+        XCTAssertEqual(vc.score, "a score")
     }
     
     // MARK: - Player Two Storyboard
@@ -44,6 +46,7 @@ final class PlayerScoreViewControllerStoryboardTests: XCTestCase {
         vc.name = "a name"
         
         XCTAssertEqual(vc.nameLabel?.text, "a name")
+        XCTAssertEqual(vc.name, "a name")
     }
     
     func test_playerTwoStoryboard_scoreSetter_updatesScoreLabel() {
@@ -52,6 +55,7 @@ final class PlayerScoreViewControllerStoryboardTests: XCTestCase {
         vc.score = "a score"
         
         XCTAssertEqual(vc.scoreLabel?.text, "a score")
+        XCTAssertEqual(vc.score, "a score")
     }
     
     // MARK: - Helpers
