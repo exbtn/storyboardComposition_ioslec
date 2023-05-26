@@ -14,7 +14,7 @@
                 <viewControllerPlaceholder storyboardName="PlayerOne" id="eB3-Ia-I26" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ax-7F-xU3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="713" y="-115"/>
+            <point key="canvasLocation" x="766" y="123"/>
         </scene>
         <!--PlayerTwo-->
         <scene sceneID="iqr-6c-GJb">
@@ -22,26 +22,26 @@
                 <viewControllerPlaceholder storyboardName="PlayerTwo" id="Con-FF-Sip" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MJn-Lm-0Mv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066" y="-119"/>
+            <point key="canvasLocation" x="1089" y="123"/>
         </scene>
-        <!--View Controller-->
+        <!--Multiplayer Score View Controller-->
         <scene sceneID="bpR-1Q-DXw">
             <objects>
-                <viewController id="D0F-9u-YsR" sceneMemberID="viewController">
+                <viewController id="D0F-9u-YsR" customClass="MultiplayerScoreViewController" customModule="StoryboardComposition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OCc-4A-7dD">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGR-O6-cvb">
-                                <rect key="frame" x="0.0" y="0.0" width="193" height="66"/>
+                                <rect key="frame" x="0.0" y="0.0" width="192.66666666666666" height="66"/>
                                 <connections>
-                                    <segue destination="eB3-Ia-I26" kind="embed" id="HD5-Mb-dok"/>
+                                    <segue destination="eB3-Ia-I26" kind="embed" identifier="playerOne" id="HD5-Mb-dok"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LN0-YO-uP8">
-                                <rect key="frame" x="201" y="0.0" width="192" height="66"/>
+                                <rect key="frame" x="200.66666666666663" y="0.0" width="192.33333333333337" height="66"/>
                                 <connections>
-                                    <segue destination="Con-FF-Sip" kind="embed" id="Nar-6O-jnZ"/>
+                                    <segue destination="Con-FF-Sip" kind="embed" identifier="playerTwo" id="Nar-6O-jnZ"/>
                                 </connections>
                             </containerView>
                         </subviews>

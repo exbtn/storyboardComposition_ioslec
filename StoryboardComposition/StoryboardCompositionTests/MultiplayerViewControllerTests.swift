@@ -12,38 +12,15 @@ final class MultiplayerViewControllerTests: XCTestCase {
 
     let storyboard = UIStoryboard(name: "MultiplayerGame", bundle: nil)
     
-    func test_initialViewControllerIsNotNil() {
-        let vc = storyboard.instantiateInitialViewController()
-        
-        XCTAssertNotNil(vc)
+    func test_multiplayerGameStoryboardInitialViewController_isSinglePlayerViewController() {
+        XCTAssertTrue(storyboard.instantiateInitialViewController() is MultiplayerViewController)
     }
     
-    func test_initialViewControllerIsMultiplayerViewController() {
-        let vc = storyboard.instantiateInitialViewController() as? MultiplayerViewController
-        
-        XCTAssertNotNil(vc)
-    }
-    
-    func test_MultiplayerViewController_names_isSettable() {
+    func test_multiplayeGameStoryboard_setsUpPlayerForSinglePlayerViewController() {
         let vc = storyboard.instantiateInitialViewController() as! MultiplayerViewController
         _ = vc.view
         
-        vc.p1Name = "a p1 name"
-        vc.p2Name = "a p2 name"
-        
-        XCTAssertEqual(vc.p1Name, "a p1 name")
-        XCTAssertEqual(vc.p2Name, "a p2 name")
-    }
-    
-    func test_MultiplayerViewController_scores_isSettable() {
-        let vc = storyboard.instantiateInitialViewController() as! MultiplayerViewController
-        _ = vc.view
-        
-        vc.p1Score = "a p1 score"
-        vc.p2Score = "a p2 score"
-        
-        XCTAssertEqual(vc.p1Score, "a p1 score")
-        XCTAssertEqual(vc.p2Score, "a p2 score")
+        XCTAssertNotNil(vc.score)
     }
 
 }

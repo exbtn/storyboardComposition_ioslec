@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" constant="66" id="1Bo-bd-Bmw"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="kLE-kr-VfD" kind="embed" id="S14-ih-QDp"/>
+                                    <segue destination="kLE-kr-VfD" kind="embed" identifier="multiplayerScore" id="S14-ih-QDp"/>
                                 </connections>
                             </containerView>
                         </subviews>
