@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		6DC0BD0C2A209E5100787B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD0B2A209E5100787B89 /* AppDelegate.swift */; };
 		6DC0BD0E2A209E5100787B89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD0D2A209E5100787B89 /* SceneDelegate.swift */; };
-		6DC0BD102A209E5100787B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD0F2A209E5100787B89 /* ViewController.swift */; };
 		6DC0BD132A209E5100787B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0BD112A209E5100787B89 /* Main.storyboard */; };
 		6DC0BD152A209E5300787B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0BD142A209E5300787B89 /* Assets.xcassets */; };
 		6DC0BD182A209E5300787B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0BD162A209E5300787B89 /* LaunchScreen.storyboard */; };
 		6DC0BD232A209E5300787B89 /* StoryboardCompositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD222A209E5300787B89 /* StoryboardCompositionTests.swift */; };
+		6DC0BD3D2A20A4DA00787B89 /* SinglePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0BD3C2A20A4DA00787B89 /* SinglePlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +30,13 @@
 		6DC0BD082A209E5100787B89 /* StoryboardComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC0BD0B2A209E5100787B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DC0BD0D2A209E5100787B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6DC0BD0F2A209E5100787B89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DC0BD122A209E5100787B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DC0BD142A209E5300787B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC0BD172A209E5300787B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DC0BD192A209E5300787B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC0BD1E2A209E5300787B89 /* StoryboardCompositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardCompositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC0BD222A209E5300787B89 /* StoryboardCompositionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardCompositionTests.swift; sourceTree = "<group>"; };
+		6DC0BD3C2A20A4DA00787B89 /* SinglePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 			children = (
 				6DC0BD0B2A209E5100787B89 /* AppDelegate.swift */,
 				6DC0BD0D2A209E5100787B89 /* SceneDelegate.swift */,
-				6DC0BD0F2A209E5100787B89 /* ViewController.swift */,
 				6DC0BD112A209E5100787B89 /* Main.storyboard */,
 				6DC0BD3B2A20A0CE00787B89 /* Resources */,
+				6DC0BD3C2A20A4DA00787B89 /* SinglePlayerViewController.swift */,
 			);
 			path = StoryboardComposition;
 			sourceTree = "<group>";
@@ -206,8 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC0BD102A209E5100787B89 /* ViewController.swift in Sources */,
 				6DC0BD0C2A209E5100787B89 /* AppDelegate.swift in Sources */,
+				6DC0BD3D2A20A4DA00787B89 /* SinglePlayerViewController.swift in Sources */,
 				6DC0BD0E2A209E5100787B89 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
